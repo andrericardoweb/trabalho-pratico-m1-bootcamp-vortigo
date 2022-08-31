@@ -8,9 +8,9 @@ Exercitar os seguintes conceitos trabalhados no Módulo:
 4. Criação da segunda activity.
 5. Manipulação de elementos utilizando Kotlin.
 6. Customização da view.
-
+7. Registrar o log das mudanças no ciclo de vida da aplicação
 
 ### Enunciado
-Construa uma aplicação nativa, para a visualização de um cartão de aniversário 
-customizado, descrito a seguir. Utilize sua criatividade na escolha de cores e disposição 
-dos elementos.
+Construa uma aplicação nativa, para a visualização de um cartão de aniversário customizado. Utilize sua criatividade na escolha de cores e disposição dos elementos. Registre o log das mudanças no ciclo de vida da aplicação.
+
+Vídeo: [https://youtu.be/z3KBFVCbaN0](https://youtu.be/z3KBFVCbaN0) 
