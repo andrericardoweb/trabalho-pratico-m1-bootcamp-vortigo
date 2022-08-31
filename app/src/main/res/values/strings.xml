@@ -3,4 +3,7 @@
     <string name="tv_home">Temos uma surpresa para você!</string>
     <string name="btn_home">Abrir surpresa</string>
     <string name="cd_minions">Imagem dos minions</string>
+    <string name="tv_message_surprise">Feliz Aniversário</string>
+    <string name="tv_message_surprise_minion">Palaloolali</string>
+    <string name="btn_back">Voltar</string>
 </resources>

@@ -1,36 +1,31 @@
 package dev.andrericardo.cartodeaniversrio
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 
-class MainActivity : AppCompatActivity() {
-
+class SurpresaActivity : AppCompatActivity() {
     companion object {
         private const val TAG = "IGTILog"
-        private const val ACTIVITY = "MainActivity::"
+        private const val ACTIVITY = "SurpresaActivity::"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_surpresa)
         Log.i(TAG, "${ACTIVITY}onCreate")
-        configurarListeners()
+
+        acaoBotaoVoltar()
     }
 
-    private fun configurarListeners() {
-        configurarListenerBtnNovaTela()
-    }
-
-    private fun configurarListenerBtnNovaTela() {
-        val button = findViewById<Button>(R.id.btnOpenSurprise)
-        button.setOnClickListener{
-            val intent = Intent(this, SurpresaActivity::class.java)
-            startActivity(intent)
+    private fun acaoBotaoVoltar() {
+        val button = findViewById<Button>(R.id.btnBack)
+        button.setOnClickListener {
+            finish()
         }
     }
+
 
     override fun onResume() {
         super.onResume()
